@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ilumno-prueba"
+    }
+  },
+  "defaultProject": "ilumno-prueba",
+  "cli": {
+    "analytics": "f43f7e25-c4ae-4350-90a1-157dd6efe5ad"
+  }
 }

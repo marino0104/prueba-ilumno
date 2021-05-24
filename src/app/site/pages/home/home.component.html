@@ -1,0 +1,16 @@
+<div class="il-home">
+    <ul class="il-home__container row">
+        <li class="il-home__card col-6 pb-5" *ngFor="let news of newsList">
+            <div class="card h-100 ">
+                <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">{{news.title}}</h5>
+
+                </div>
+                <div class="card-footer">
+                    <a [routerLink]="['/noticias', news.id]">Ver más...</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
